@@ -133,7 +133,7 @@ function startCountdown() {
 function shuffle(cards) {
 
     for(let j=0; j<(images/2); j++){
-        i = Math.floor(Math.random() * 5);
+       let i = Math.floor(Math.random() * 5);
         randoms[j] = cards[i];
     }
 

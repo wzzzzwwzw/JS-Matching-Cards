@@ -33,10 +33,10 @@ function getRecords() {
 
 function formatDate(item) {
 
-    var d = new Date(item);
-    var day = d.getDate();
-    var month = d.getMonth() + 1;
-    var year = d.getFullYear();
+    let d = new Date(item);
+    let day = d.getDate();
+    let month = d.getMonth() + 1;
+    let year = d.getFullYear();
 
     if (day < 10) {
         day = "0" + day;
@@ -44,7 +44,7 @@ function formatDate(item) {
     if (month < 10) {
         month = "0" + month;
     }
-    var date = day + "/" + month + "/" + year;
+   let date = day + "/" + month + "/" + year;
 
     return date;
 

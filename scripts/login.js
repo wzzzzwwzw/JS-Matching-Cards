@@ -1,7 +1,7 @@
 
 $("#buttonSend").click(function (e){
 
-    var form = $("#login-form");
+    let form = $("#login-form");
 
     if(!form[0].checkValidity()){
         e.preventDefault();
